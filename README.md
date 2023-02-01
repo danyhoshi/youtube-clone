@@ -1,6 +1,6 @@
 # YouTube Clone
 
-> Set up the project, the goal here is to master the tools and best practices about Linter, Gitflow, pair programming while we make a clone of Youtube interface. 
+> Set up the project, the goal here is to master the tools and best practices about Linter, Gitflow, pair programming while we make a clone of YouTube interface. 
 
 Original Design
 ![screenshotDesign](./images/screenshot.jpg)
@@ -32,8 +32,8 @@ Original Design
 👤 **Author2**
 
 - GitHub: [@albinpirela](https://github.com/Albinpirela)
-- LinkedIn: [@LinkedIn]()
-- Twitter: [@]()
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/albin-pirela-21528a222/)
+- Twitter: [@AlbinPirela](https://twitter.com/243f3669846b4b5)
 
 ## 🤝 Contributing
 
