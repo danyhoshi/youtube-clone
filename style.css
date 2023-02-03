@@ -5,3 +5,108 @@ body {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
+header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  position: fixed;
+  background-color: #fff;
+  z-index: 50;
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+}
+
+.fa-bars {
+  position: relative;
+  top: 20px;
+  font-size: 1.3rem;
+  left: 2.5em;
+}
+
+.logo > img {
+  position: relative;
+  bottom: 5px;
+  left: 6.5em;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 300px;
+  width: 60%;
+  top: 10px;
+}
+
+.mic {
+  position: relative;
+  left: 400px;
+  font-size: 1.7rem;
+  top: 5px;
+}
+
+.search > .search-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 90%;
+  height: 6vh;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+}
+
+.search > .search-content:focus {
+  border: none;
+}
+
+.search > .search-content:active {
+  border: none;
+}
+
+.search-content > p {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 3%;
+}
+
+.search-content > .fa-search {
+  font-size: 2rem;
+  position: absolute;
+  right: 1.8em;
+}
+
+.search-content > input {
+  width: 70%;
+  height: 5vh;
+  border: none;
+}
+
+.navbuttons {
+  position: absolute;
+  box-sizing: border-box;
+  right: 0;
+  top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  height: 8vh;
+  font-size: 2rem;
+  justify-content: center;
+}
+
+.material-symbols-outlined {
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
