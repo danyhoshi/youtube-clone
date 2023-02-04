@@ -17,6 +17,10 @@ header {
   z-index: 50;
 }
 
+input:focus {
+  outline: none;
+}
+
 .logo {
   display: flex;
   align-items: center;
