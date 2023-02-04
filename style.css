@@ -11,54 +11,48 @@ header {
   height: 10vh;
   display: flex;
   box-sizing: border-box;
-  flex-direction: row;
   position: fixed;
+  justify-content: space-between;
   background-color: #fff;
   z-index: 50;
 }
 
 .logo {
-  position: absolute;
-  left: 20px;
   display: flex;
-  width: 100vw;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1em;
+  padding-left: 0.7em;
+  width: 20vw;
   height: 10vh;
 }
 
 .fa-bars {
-  position: relative;
-  top: 20px;
   font-size: 1.3rem;
-  left: 2.5em;
 }
 
 .logo > img {
-  position: relative;
-  bottom: 5px;
-  left: 6.5em;
+  flex-shrink: 1;
+  width: 7vw;
 }
 
 .search {
   display: flex;
   justify-content: center;
-  position: absolute;
-  right: 300px;
-  width: 60%;
+  align-items: center;
+  gap: 1em;
+  width: 50%;
   top: 10px;
 }
 
 .mic {
-  position: relative;
-  left: 400px;
-  font-size: 1.7rem;
-  top: 5px;
+  font-size: 1.2rem;
 }
 
 .search > .search-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  position: absolute;
   width: 90%;
   height: 6vh;
   border: 2px solid #ddd;
@@ -73,40 +67,66 @@ header {
   border: none;
 }
 
-.search-content > p {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  left: 3%;
-}
-
 .search-content > .fa-search {
-  font-size: 2rem;
-  position: absolute;
-  right: 1.8em;
+  font-size: 1.5rem;
+  padding-left: 1em;
 }
 
 .search-content > input {
-  width: 70%;
+  margin-left: 1em;
+  width: 90%;
   height: 5vh;
   border: none;
 }
 
 .navbuttons {
-  position: absolute;
-  box-sizing: border-box;
-  right: 0;
-  top: 10px;
   display: flex;
-  flex-direction: row;
-  width: 25%;
+  box-sizing: border-box;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  width: 20%;
   height: 8vh;
-  font-size: 2rem;
+  justify-content: flex-end;
+  gap: 0.4em;
+  align-items: center;
+}
+
+.buttons-header {
+  display: flex;
+  align-items: center;
   justify-content: center;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+}
+
+.buttons-header > img {
+  flex-shrink: 0;
 }
 
 .material-symbols-outlined {
-  position: relative;
-  top: 15px;
-  left: 15px;
+  font-size: 2em;
+}
+
+.search-content > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 100%;
+  background-color: rgb(248, 248, 248);
+  border-left: 2px solid #ddd;
+  border-radius: 0 40px 40px 0;
+}
+
+.buttons-header:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.search-content > div:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.mic:hover {
+  background-color: rgb(240, 240, 240);
 }
