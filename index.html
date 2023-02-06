@@ -20,12 +20,13 @@
 
 <body>
     <header>
-        <div class="logo"><span class="menu-icon buttons-header"><i class="fa-solid fa-bars"></i></span> <img 
+        <div class="logo"><span class="menu-icon buttons-header"><i class="fa-solid fa-bars"></i></span> <img
                 src="./images/YouTube-logo.png" alt=""></div>
 
         <div class="search">
             <div class="search-content">
-               <input type="search" name="search" placeholder= "Search"><div><i class="fas fa-search"></i></div>
+                <input type="search" name="search" placeholder="Search">
+                <div><i class="fas fa-search"></i></div>
             </div>
             <div class="mic buttons-header"><i class="fas fa-microphone"></i></div>
         </div>
@@ -36,169 +37,417 @@
             <div class="buttons-header"><img width="20px" src="./images/userY.png" alt=""></div>
         </div>
     </header>
-    <!-- categories -->
-    <div>
-        <a href="#"> <button> All</button></a>
-        <a href="#"> <button> Mixes</button></a>
-        <a href="#"> <button>Music</button></a>
-        <a href="#"> <button>Live</button></a>
-        <a href="#"> <button>Development</button></a>
-        <a href="#"> <button>Python</button></a>
-        <a href="#"> <button>Programming</button></a>
+
+    <div class="container">
+        <section class="sidebar">
+            <nav>
+                <div class="group-sidebar">
+                    <a class="sidebar-item" href="#"><span class="material-symbols-outlined space">home</span>Home</a>
+                    <a class="sidebar-item" href=""><img class="space" width="10%" src="./images/shorts.ico">Shorts</a>
+                    <a class="sidebar-item" href="#"><span
+                            class="material-symbols-outlined space">subscriptions</span>Subscriptions</a>
+                    <hr>
+                </div>
+                <!-- next section -->
+                <div class="group-sidebar">
+                    <a class="sidebar-item" href="#"><span
+                            class="material-symbols-outlined space">video_library</span>Library</a>
+                    <a class="sidebar-item" href="#"><span
+                            class="material-symbols-outlined space">history</span>History</a>
+                    <a class="sidebar-item" href="#"><span class="material-symbols-outlined space">slideshow</span>Your
+                        videos</a>
+                    <a class="sidebar-item" href="#"><span class="material-symbols-outlined space">schedule</span>Watch
+                        later</a>
+                    <a class="sidebar-item" href="#"><span
+                            class="material-symbols-outlined space">content_cut</span>Your
+                        clips</a>
+                    <a class="sidebar-item" href="#"><span
+                            class="material-symbols-outlined space">expand_more</span>Show
+                        more</a>
+                    <hr />
+                </div>
+                <div class="group-sidebar">
+                    <p class="sidebar-item">Subscriptions</p>
+                </div>
+                <div class="group-sidebar">
+                    <p class="sidebar-item">Explore</p>
+                    <a class="sidebar-item" href=""><span
+                            class="material-symbols-outlined space">local_fire_department</span>Trending</a>
+                    <a class="sidebar-item" href=""><span
+                            class="material-symbols-outlined space">music_note</span>Music</a>
+                    <a class="sidebar-item spaceleft" href=""><img class="space" src="./images/gaming.png" alt="">
+                        Gaming</a>
+                    <a class="sidebar-item spaceleft" href=""><img class="space" src="./images/Deportes.png" alt="">
+                        Sports</a>
+                    <a class="sidebar-item spaceleft" href=""><img class="space" src="./images/aprendizaje.png" alt="">
+                        Learning</a>
+                    <hr />
+                </div>
+                <div class="group-sidebar">
+                    <p class="sidebar-item">More from YouTube</p>
+                    <a class="sidebar-item" href=""><img class="space" width="20%"
+                            src="./images/youtube-premium.png">YouTube
+                        Premium</a>
+                    <a class="sidebar-item" href=""><img class="space" width="20%"
+                            src="./images/creator-studio.png">Creator Studio</a>
+                    <a class="sidebar-item" href=""><img class="space" width="20%"
+                            src="./images/youtube-music.png">YouTube Music</a>
+                    <a class="sidebar-item" href=""><img class="space" width="20%"
+                            src="./images/youtube-kids.png">YouTube Kids</a>
+                    <a class="sidebar-item" href=""><img class="space" width="20%" src="./images/youtube-tv.png">YouTube
+                        TV</a>
+                    <hr />
+                </div>
+                <div class="group-sidebar">
+                    <a class="sidebar-item" href=""><span
+                            class="material-symbols-outlined space">Settings</span>Settings</a>
+                    <a class=" sidebar-item" href=""><span class="material-symbols-outlined space">flag</span>Report
+                        history</a>
+                    <a class="sidebar-item" href=""><span class="material-symbols-outlined space">help</span>Help</a>
+                    <a class="sidebar-item" href=""><span class="material-symbols-outlined space">sms_failed</span>Send
+                        feedback</a>
+                    <hr />
+                </div>
+            </nav>
+            <footer>
+                <p>About Press Copyright Contact us Creators Advertise Developers</p>
+                <p>Terms Privacy Policy & Safety <br> How YouTube works Test new features</p>
+                <p class="footer-a">© 2023 Google LLC</p>
+            </footer>
+        </section>
+        <!-- Main section -->
+        <!-- categories -->
+        <section>
+            <div class="categories">
+                <a href="#"> <button type="button"> All</button></a>
+                <a href="#"> <button type="button"> Mixes</button></a>
+                <a href="#"> <button type="button">Music</button></a>
+                <a href="#"> <button type="button">Live</button></a>
+                <a href="#"> <button type="button">Development</button></a>
+                <a href="#"> <button type="button">Python</button></a>
+                <a href="#"> <button type="button">Programming</button></a>
+            </div>
+
+            <div class="container-content">
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div class="video">
+
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div><a href=""><img width="80%" src="./images/video1.jpg" alt=""></a></div>
+                    <div class="rowtext">
+                        <div><a href=""><img width="15%" src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2><a href="">Video 1</a></h2>
+                            <p><a href="">Canal</a></p>
+                            <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-    <!-- Side Bar -->
-    <section>
-        <nav>
-            <div>
-                <a href="#"><span class="material-symbols-outlined">home</span>Home</a>
-                <a href=""><img width="1.3%" src="./images/shorts.ico">Shorts</a>
-                <a href="#"><span class="material-symbols-outlined">subscriptions</span>Subscriptions</a>
-                <hr>
-            </div>
-            <!-- next section -->
-            <div>
-                <a href="#"><span class="material-symbols-outlined">video_library</span>Library</a>
-                <a href="#"><span class="material-symbols-outlined">history</span>History</a>
-                <a href="#"><span class="material-symbols-outlined">slideshow</span>Your videos</a>
-                <a href="#"><span class="material-symbols-outlined">schedule</span>Watch later</a>
-                <a href="#"><span class="material-symbols-outlined">content_cut</span>Your clips</a>
-                <a href="#"><span class="material-symbols-outlined">expand_more</span>Show more</a>
-                <hr />
-            </div>
-            <div>
-                <p>Subscriptions</p>
-                <hr>
-            </div>
-            <div>
-                <p>Explore</p>
-                <a href=""><span class="material-symbols-outlined">local_fire_department</span>Trending</a>
-                <a href=""><span class="material-symbols-outlined">music_note</span>Music</a>
-                <a href=""><img src="./images/gaming.png" alt=""> Gaming</a>
-                <a href=""><img src="./images/Deportes.png" alt=""> Sports</a>
-                <a href=""><img src="./images/aprendizaje.png" alt=""> Learning</a>
-                <hr />
-            </div>
-            <div>
-                <p>More from YouTube</p>
-                <a href=""><img width="4%" src="./images/youtube-premium.png">YouTube Premium</a>
-                <a href=""><img width="4%" src="./images/creator-studio.png">Creator Studio</a>
-                <a href=""><img width="4%" src="./images/youtube-music.png">YouTube Music</a>
-                <a href=""><img width="4%" src="./images/youtube-kids.png">YouTube Kids</a>
-                <a href=""><img width="4%" src="./images/youtube-tv.png">YouTube TV</a>
-                <hr />
-            </div>
-            <div>
-                <a href=""><span class="material-symbols-outlined">Settings</span>Settings</a>
-                <a href=""><span class="material-symbols-outlined">flag</span>Report history</a>
-                <a href=""><span class="material-symbols-outlined">help</span>Help</a>
-                <a href=""><span class="material-symbols-outlined">sms_failed</span>Send feedback</a>
-                <hr />
-            </div>
-        </nav>
-        <footer>
-            <p>About Press Copyright Contact us Creators Advertise Developers</p>
-            <p>Terms Privacy Policy & Safety How YouTube works Test new features</p>
-            <p>© 2023 Google LLC</p>
-        </footer>
-    </section>
-    <!-- Main section -->
-    <section>
-        <article>
-            <div><a href=""><img width="15%" src="./images/video1.jpg" alt=""></a></div>
-            <div>
-                <div><a href=""><img width="2%" src="./images/user.png" alt="user-account"></a></div>
-                <div>
-                    <h2><a href="">Video 1</a></h2>
-                    <p><a href="">Canal</a></p>
-                    <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
-                </div>
-            </div>
-        </article>
 
-        <article>
-            <div><a href=""><img width="15%" src="./images/video1.jpg" alt=""></a></div>
-            <div>
-                <div><a href=""><img width="2%" src="./images/user.png" alt="user-account"></a></div>
-                <div>
-                    <h2><a href="">Video 1</a></h2>
-                    <p><a href="">Canal</a></p>
-                    <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
-                </div>
-            </div>
-        </article>
-
-        <article>
-            <div><a href=""><img width="15%" src="./images/video1.jpg" alt=""></a></div>
-            <div>
-                <div><a href=""><img width="2%" src="./images/user.png" alt="user-account"></a></div>
-                <div>
-                    <h2><a href="">Video 1</a></h2>
-                    <p><a href="">Canal</a></p>
-                    <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
-                </div>
-            </div>
-        </article>
-
-        <article>
-            <div><a href=""><img width="15%" src="./images/video1.jpg" alt=""></a></div>
-            <div>
-                <div><a href=""><img width="2%" src="./images/user.png" alt="user-account"></a></div>
-                <div>
-                    <h2><a href="">Video 1</a></h2>
-                    <p><a href="">Canal</a></p>
-                    <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
-                </div>
-            </div>
-        </article>
-
-        <article>
-            <div><a href=""><img width="15%" src="./images/video1.jpg" alt=""></a></div>
-            <div>
-                <div><a href=""><img width="2%" src="./images/user.png" alt="user-account"></a></div>
-                <div>
-                    <h2><a href="">Video 1</a></h2>
-                    <p><a href="">Canal</a></p>
-                    <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
-                </div>
-            </div>
-        </article>
-
-        <article>
-            <div><a href=""><img width="15%" src="./images/video1.jpg" alt=""></a></div>
-            <div>
-                <div><a href=""><img width="2%" src="./images/user.png" alt="user-account"></a></div>
-                <div>
-                    <h2><a href="">Video 1</a></h2>
-                    <p><a href="">Canal</a></p>
-                    <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
-                </div>
-            </div>
-        </article>
-
-        <article>
-            <div><a href=""><img width="15%" src="./images/video1.jpg" alt=""></a></div>
-            <div>
-                <div><a href=""><img width="2%" src="./images/user.png" alt="user-account"></a></div>
-                <div>
-                    <h2><a href="">Video 1</a></h2>
-                    <p><a href="">Canal</a></p>
-                    <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
-                </div>
-            </div>
-        </article>
-
-        <article>
-            <div><a href=""><img width="15%" src="./images/video1.jpg" alt=""></a></div>
-            <div>
-                <div><a href=""><img width="2%" src="./images/user.png" alt="user-account"></a></div>
-                <div>
-                    <h2><a href="">Video 1</a></h2>
-                    <p><a href="">Canal</a></p>
-                    <p><a href=""><span>276k Views</span> &bull; <span>4 days ago</span></a></p>
-                </div>
-            </div>
-        </article>
-    </section>
 </body>
 
 </html>

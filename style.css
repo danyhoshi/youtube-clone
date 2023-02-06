@@ -17,6 +17,95 @@ header {
   z-index: 50;
 }
 
+footer {
+  padding: 1em 2em 2.5em 1.5em;
+}
+
+footer > p {
+  color: #606060;
+  font-size: 0.9rem;
+}
+
+.footer-a {
+  color: #909090;
+  margin-top: 2em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 82vw;
+  padding: 10vh 0 0 16.5em;
+}
+
+.categories {
+  position: sticky;
+  top: 10vh;
+  padding-left: 15em;
+  background-color: #fff;
+  height: 7vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.categories a > button {
+  width: 150%;
+  height: 5vh;
+}
+
+.sidebar {
+  position: fixed;
+  width: 18vw;
+  height: 90vh;
+  padding-top: 4.8em;
+  overflow: scroll;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  z-index: 25;
+}
+
+.group-sidebar {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #ddd;
+  padding: 0.8em 1em;
+}
+
+.sidebar-item {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #000;
+}
+
+.video {
+  display: flex;
+  width: 25%;
+  height: 25%;
+  flex-direction: column;
+  font-size: 0.6rem;
+}
+
+.space {
+  margin-right: 0.5em;
+}
+
+.spaceleft {
+  position: relative;
+  right: 10px;
+}
+
 input:focus {
   outline: none;
 }
@@ -133,4 +222,42 @@ input:focus {
 
 .mic:hover {
   background-color: rgb(240, 240, 240);
+}
+
+.sidebar-item:hover {
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #909090;
+  border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #909090;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar::-webkit-scrollbar-track:hover,
+.sidebar::-webkit-scrollbar-track:active {
+  background: #fff;
+}
+
+.sidebar:hover::-webkit-scrollbar {
+  display: initial;
+}
+
+.sidebar::-webkit-scrollbar-thumb:active {
+  background-color: #909090;
 }
