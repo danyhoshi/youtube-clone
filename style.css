@@ -355,11 +355,11 @@ html::-webkit-scrollbar-thumb:active {
   background-color: #909090;
 }
 
+.categories button:hover {
+  background-color: #e5e5e5;
+}
+
 .categories button:active {
   background-color: #0f0f0f;
   color: #fff;
-}
-
-.categories button:hover {
-  background-color: #e5e5e5;
 }
