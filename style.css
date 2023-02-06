@@ -4,6 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  text-decoration: none;
 }
 
 header {
@@ -40,7 +41,7 @@ footer > p {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 82vw;
+  width: 80vw;
   padding: 10vh 0 0 16.5em;
 }
 
@@ -55,9 +56,18 @@ footer > p {
   align-items: center;
 }
 
+.categories button {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  border: 0;
+  color: #0f0f0f;
+  font-size: 0.9em;
+}
+
 .categories a > button {
   width: 150%;
   height: 5vh;
+  font-weight: 400;
 }
 
 .sidebar {
@@ -95,6 +105,7 @@ footer > p {
   height: 25%;
   flex-direction: column;
   font-size: 0.6rem;
+  padding: 2em 0 0 0;
 }
 
 .space {
@@ -104,6 +115,56 @@ footer > p {
 .spaceleft {
   position: relative;
   right: 10px;
+}
+
+.rowtext {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.7em 0 0 0;
+}
+
+.columntext {
+  width: 82%;
+}
+
+.columntext a {
+  text-decoration: none;
+}
+
+.canal-image {
+  width: 18%;
+}
+
+.canal-image img {
+  width: 70%;
+}
+
+.container-video img {
+  border-radius: 10px;
+  width: 80%;
+}
+
+.name-video a {
+  font-size: 1.2em;
+  color: #505050;
+}
+
+.canal-info {
+  line-height: 0.7em;
+}
+
+.name-video {
+  line-height: 1em;
+  margin: 0 0 0 0;
+}
+
+.canal-info a {
+  font-size: 1.2em;
+  line-height: 0.1em;
+  color: #646464;
 }
 
 input:focus {
@@ -260,4 +321,45 @@ input:focus {
 
 .sidebar::-webkit-scrollbar-thumb:active {
   background-color: #909090;
+}
+
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 4px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #606060;
+  border-radius: 4px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #606060;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+html::-webkit-scrollbar-track:hover,
+html::-webkit-scrollbar-track:active {
+  background: #fff;
+}
+
+html:hover::-webkit-scrollbar {
+  display: initial;
+}
+
+html::-webkit-scrollbar-thumb:active {
+  background-color: #909090;
+}
+
+.categories button:active {
+  background-color: #0f0f0f;
+  color: #fff;
+}
+
+.categories button:hover {
+  background-color: #e5e5e5;
 }
