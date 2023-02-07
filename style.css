@@ -22,9 +22,25 @@ footer {
   padding: 1em 2em 2.5em 1.5em;
 }
 
+iframe {
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+
 footer > p {
   color: #606060;
   font-size: 0.9rem;
+}
+
+.more {
+  color: #606060;
+  width: 2em;
+  margin: 0 1.5em 0 0;
+}
+
+.more span {
+  display: none;
 }
 
 .footer-a {
@@ -39,10 +55,20 @@ footer > p {
 
 .container-content {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
-  flex-wrap: wrap;
-  width: 80vw;
+  max-width: 80vw;
   padding: 10vh 0 0 16.5em;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 262px;
+  max-height: 300px;
+  font-size: 0.6rem;
+  padding: 2em 0 0 0;
 }
 
 .categories {
@@ -99,15 +125,6 @@ footer > p {
   color: #000;
 }
 
-.video {
-  display: flex;
-  width: 25%;
-  height: 25%;
-  flex-direction: column;
-  font-size: 0.6rem;
-  padding: 2em 0 0 0;
-}
-
 .space {
   margin-right: 0.5em;
 }
@@ -119,6 +136,7 @@ footer > p {
 
 .rowtext {
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
@@ -142,9 +160,9 @@ footer > p {
   width: 70%;
 }
 
-.container-video img {
-  border-radius: 10px;
-  width: 80%;
+.container-video {
+  width: 262px;
+  height: 147px;
 }
 
 .name-video a {
@@ -357,6 +375,10 @@ html::-webkit-scrollbar-thumb:active {
 
 .categories button:hover {
   background-color: #e5e5e5;
+}
+
+.rowtext:hover .material-symbols-outlined {
+  display: initial;
 }
 
 .categories button:active {
