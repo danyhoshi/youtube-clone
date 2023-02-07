@@ -3,7 +3,11 @@
 > Set up the project, the goal here is to master the tools and best practices about Linter, Gitflow, pair programming while we make a clone of YouTube interface. 
 
 Original Design
-![screenshotDesign](./images/screenshot.jpg)
+![screenshotDesign](./images/screenshot-original-design.jpg)
+
+Our clone
+![screenshotDesign](./images/screenshot-our-design1.jpg)
+![screenshotDesign](./images/screenshot-our-design2.jpg)
 
 
 ## Built With
@@ -15,7 +19,7 @@ Original Design
 - GIT 
 
 ### Setup
-- Clone this [Repository](https://github.com/danyhoshi/youtube-clone.git) in order to get a copy of this project
+- Clone this [Repository](https://github.com/danyhoshi/youtube-clone) in order to get a copy of this project
 - From develop branch, open the index.html file with your browser.
 
 ## Authors
