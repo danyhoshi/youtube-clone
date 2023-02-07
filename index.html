@@ -1,13 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Youtube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://youtube.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="shortcut icon" href="./images/youtube.png" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/3601ca0410.js" crossorigin="anonymous"></script>
+    <title>YouTube Clone</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo"><span class="menu-icon buttons-header"><i class="fa-solid fa-bars"></i></span> <img
+                src="./images/YouTube-logo.png" alt=""></div>
+
+        <div class="search">
+            <div class="search-content">
+                <input type="search" name="search" placeholder="Search">
+                <div><i class="fas fa-search"></i></div>
+            </div>
+            <div class="mic buttons-header"><i class="fas fa-microphone"></i></div>
+        </div>
+
+        <div class="navbuttons">
+            <div class="buttons-header"><img width="20px" src="./images/nuvo2-video.png"></div>
+            <div class="buttons-header"><img width="20px" src="./images/campanita3.png"></div>
+            <div class="buttons-header"><img width="20px" src="./images/userY.png" alt=""></div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="sidebar">
+            <nav>
+                <div class="group-sidebar">
+                    <a class="sidebar-item a1" href="#"><span class="material-symbols-outlined space move">home</span><span class="hidden margin">Home</span> </a>
+                    <a class="sidebar-item a1" href=""><img class="space shorts" src="./images/shorts.ico"><span class="hidden margin">Shorts</span></a>
+                    <a class="sidebar-item a1" href="#"><span
+                            class="material-symbols-outlined space move">subscriptions</span><span class="right">Subscriptions</span></a>
+                </div>
+                <!-- next section -->
+                <div class="group-sidebar">
+                    <a class="sidebar-item a1" href="#"><span
+                            class="material-symbols-outlined space move">video_library</span><span class="hidden margin">Library</span></a>
+                    <a class="sidebar-item responsive" href="#"><span
+                            class="material-symbols-outlined space">history</span>History</a>
+                    <a class="sidebar-item responsive" href="#"><span class="material-symbols-outlined space">slideshow</span>Your
+                        videos</a>
+                    <a class="sidebar-item responsive" href="#"><span class="material-symbols-outlined space">schedule</span>Watch
+                        later</a>
+                    <a class="sidebar-item responsive" href="#"><span
+                            class="material-symbols-outlined space">content_cut</span>Your
+                        clips</a>
+                    <a class="sidebar-item responsive" href="#"><span
+                            class="material-symbols-outlined space">expand_more</span>Show
+                        more</a>
+                </div>
+                <div class="group-sidebar responsive">
+                    <p class="sidebar-item">Subscriptions</p>
+                </div>
+                <div class="group-sidebar responsive">
+                    <p class="sidebar-item">Explore</p>
+                    <a class="sidebar-item" href=""><span
+                            class="material-symbols-outlined space">local_fire_department</span>Trending</a>
+                    <a class="sidebar-item" href=""><span
+                            class="material-symbols-outlined space">music_note</span>Music</a>
+                    <a class="sidebar-item spaceleft" href=""><img class="space" src="./images/gaming.png" alt="">
+                        Gaming</a>
+                    <a class="sidebar-item spaceleft" href=""><img class="space" src="./images/Deportes.png" alt="">
+                        Sports</a>
+                    <a class="sidebar-item spaceleft" href=""><img class="space" src="./images/aprendizaje.png" alt="">
+                        Learning</a>
+                    <hr />
+                </div>
+                <div class="group-sidebar responsive">
+                    <p class="sidebar-item">More from YouTube</p>
+                    <a class="sidebar-item" href=""><img class="space space-b"
+                            src="./images/youtube-premium.png">YouTube
+                        Premium</a>
+                    <a class="sidebar-item" href=""><img class="space space-b"
+                            src="./images/creator-studio.png">Creator Studio</a>
+                    <a class="sidebar-item" href=""><img class="space space-b"
+                            src="./images/youtube-music.png">YouTube Music</a>
+                    <a class="sidebar-item" href=""><img class="space space-b"
+                            src="./images/youtube-kids.png">YouTube Kids</a>
+                    <a class="sidebar-item" href=""><img class="space space-b" src="./images/youtube-tv.png">YouTube
+                        TV</a>
+                    <hr />
+                </div>
+                <div class="group-sidebar responsive">
+                    <a class="sidebar-item" href=""><span
+                            class="material-symbols-outlined space">Settings</span>Settings</a>
+                    <a class=" sidebar-item" href=""><span class="material-symbols-outlined space">flag</span>Report
+                        history</a>
+                    <a class="sidebar-item" href=""><span class="material-symbols-outlined space">help</span>Help</a>
+                    <a class="sidebar-item" href=""><span class="material-symbols-outlined space">sms_failed</span>Send
+                        feedback</a>
+                    <hr />
+                </div>
+            </nav>
+            <footer class="responsive">
+                <p>About Press Copyright Contact us Creators Advertise Developers</p>
+                <p>Terms Privacy Policy & Safety <br> How YouTube works Test new features</p>
+                <p class="footer-a">© 2023 Google LLC</p>
+            </footer>
+        </section>
+        <!-- Main section -->
+        <!-- categories -->
+        <section>
+            <div class="categories">
+                <a href="#"> <button type="button"> All</button></a>
+                <a href="#"> <button type="button"> Mixes</button></a>
+                <a href="#"> <button type="button">Music</button></a>
+                <a class="off" href="#"> <button type="button">Live</button></a>
+                <a class="off" href="#"> <button type="button">Development</button></a>
+                <a class="off line" href="#"> <button type="button">Python</button></a>
+                <a class="off line" href="#"> <button type="button">Programming</button></a>
+                <a class="arrow" href="#"> <span class="material-symbols-outlined">navigate_next</span></a>
+            </div>
+
+            <div class="container-content">
+                <div class="video">
+                    <div class="container-video"><iframe src="https://www.youtube.com/embed/7DBIR30ks64?autohide=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div class="rowtext">
+                        <div class="canal-image"><a href=""><img src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2 class="name-video"><a href="">Las Cuatro Estaciones (Four Seasons) - Vivaldi</a></h2>
+                            <p class="canal-info"><a href="">Dream Waves</a></p>
+                            <p class="canal-info"><a href=""><span>105k views</span> &bull; <span>4 years ago</span></a></p>
+                        </div>
+                        <div class="more"><span class="material-symbols-outlined">more_vert</span></div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="container-video"><iframe src="https://www.youtube.com/embed/GMkmQlfOJDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div class="rowtext">
+                        <div class="canal-image"><a href=""><img src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2 class="name-video"><a href="">Johann Sebastian Bach-Air on G String</a></h2>
+                            <p class="canal-info"><a href="">Mozafunkula</a></p>
+                            <p class="canal-info"><a href=""><span>8.7M views</span> &bull; <span>12 years ago</span></a></p>
+                        </div>
+                        <div class="more"><span class="material-symbols-outlined">more_vert</span></div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="container-video"><iframe src="https://www.youtube.com/embed/3iH1ONnXrdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div class="rowtext">
+                        <div class="canal-image"><a href=""><img src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2 class="name-video"><a href="">Chopin: Nocturne no. 19, Op 72 no. 1...</a></h2>
+                            <p class="canal-info"><a href="">Pianoplayers002</a></p>
+                            <p class="canal-info"><a href=""><span>1.1M views</span> &bull; <span>14 years ago</span></a></p>
+                        </div>
+                        <div class="more"><span class="material-symbols-outlined">more_vert</span></div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="container-video"><iframe src="https://www.youtube.com/embed/VQraviuwbzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div class="rowtext">
+                        <div class="canal-image"><a href=""><img src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2 class="name-video"><a href="">5 simple tips to making responsive layouts...</a></h2>
+                            <p class="canal-info"><a href="">Kevin Powell</a></p>
+                            <p class="canal-info"><a href=""><span>472k views</span> &bull; <span>1 years ago</span></a></p>
+                        </div>
+                        <div class="more"><span class="material-symbols-outlined">more_vert</span></div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="container-video"><iframe src="https://www.youtube.com/embed/7DBIR30ks64?autohide=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div class="rowtext">
+                        <div class="canal-image"><a href=""><img src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2 class="name-video"><a href="">Las Cuatro Estaciones (Four Seasons) - Vivaldi</a></h2>
+                            <p class="canal-info"><a href="">Dream Waves</a></p>
+                            <p class="canal-info"><a href=""><span>105k views</span> &bull; <span>4 years ago</span></a></p>
+                        </div>
+                        <div class="more"><span class="material-symbols-outlined">more_vert</span></div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="container-video"><iframe src="https://www.youtube.com/embed/GMkmQlfOJDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div class="rowtext">
+                        <div class="canal-image"><a href=""><img src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2 class="name-video"><a href="">Johann Sebastian Bach-Air on G String</a></h2>
+                            <p class="canal-info"><a href="">Mozafunkula</a></p>
+                            <p class="canal-info"><a href=""><span>8.7M views</span> &bull; <span>12 years ago</span></a></p>
+                        </div>
+                        <div class="more"><span class="material-symbols-outlined">more_vert</span></div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="container-video"><iframe src="https://www.youtube.com/embed/3iH1ONnXrdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div class="rowtext">
+                        <div class="canal-image"><a href=""><img src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2 class="name-video"><a href="">Chopin: Nocturne no. 19, Op 72 no. 1...</a></h2>
+                            <p class="canal-info"><a href="">Pianoplayers002</a></p>
+                            <p class="canal-info"><a href=""><span>1.1M views</span> &bull; <span>14 years ago</span></a></p>
+                        </div>
+                        <div class="more"><span class="material-symbols-outlined">more_vert</span></div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="container-video"><iframe src="https://www.youtube.com/embed/VQraviuwbzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div class="rowtext">
+                        <div class="canal-image"><a href=""><img src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2 class="name-video"><a href="">5 simple tips to making responsive layouts...</a></h2>
+                            <p class="canal-info"><a href="">Kevin Powell</a></p>
+                            <p class="canal-info"><a href=""><span>472k views</span> &bull; <span>1 years ago</span></a></p>
+                        </div>
+                        <div class="more"><span class="material-symbols-outlined">more_vert</span></div>
+                    </div>
+                </div>
+                       <div class="video">
+                    <div class="container-video"><iframe src="https://www.youtube.com/embed/7DBIR30ks64?autohide=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div class="rowtext">
+                        <div class="canal-image"><a href=""><img src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2 class="name-video"><a href="">Las Cuatro Estaciones (Four Seasons) - Vivaldi</a></h2>
+                            <p class="canal-info"><a href="">Dream Waves</a></p>
+                            <p class="canal-info"><a href=""><span>105k views</span> &bull; <span>4 years ago</span></a></p>
+                        </div>
+                        <div class="more"><span class="material-symbols-outlined">more_vert</span></div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="container-video"><iframe src="https://www.youtube.com/embed/GMkmQlfOJDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div class="rowtext">
+                        <div class="canal-image"><a href=""><img src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2 class="name-video"><a href="">Johann Sebastian Bach-Air on G String</a></h2>
+                            <p class="canal-info"><a href="">Mozafunkula</a></p>
+                            <p class="canal-info"><a href=""><span>8.7M views</span> &bull; <span>12 years ago</span></a></p>
+                        </div>
+                        <div class="more"><span class="material-symbols-outlined">more_vert</span></div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="container-video"><iframe src="https://www.youtube.com/embed/3iH1ONnXrdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div class="rowtext">
+                        <div class="canal-image"><a href=""><img src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2 class="name-video"><a href="">Chopin: Nocturne no. 19, Op 72 no. 1...</a></h2>
+                            <p class="canal-info"><a href="">Pianoplayers002</a></p>
+                            <p class="canal-info"><a href=""><span>1.1M views</span> &bull; <span>14 years ago</span></a></p>
+                        </div>
+                        <div class="more"><span class="material-symbols-outlined">more_vert</span></div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="container-video"><iframe src="https://www.youtube.com/embed/VQraviuwbzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div class="rowtext">
+                        <div class="canal-image"><a href=""><img src="./images/user.png" alt="user-account"></a></div>
+                        <div class="columntext">
+                            <h2 class="name-video"><a href="">5 simple tips to making responsive layouts...</a></h2>
+                            <p class="canal-info"><a href="">Kevin Powell</a></p>
+                            <p class="canal-info"><a href=""><span>472k views</span> &bull; <span>1 years ago</span></a></p>
+                        </div>
+                        <div class="more"><span class="material-symbols-outlined">more_vert</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
