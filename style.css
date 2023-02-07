@@ -7,6 +7,38 @@ body {
   text-decoration: none;
 }
 
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 4px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #606060;
+  border-radius: 4px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #606060;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+html::-webkit-scrollbar-track:hover,
+html::-webkit-scrollbar-track:active {
+  background: #fff;
+}
+
+html:hover::-webkit-scrollbar {
+  display: initial;
+}
+
+html::-webkit-scrollbar-thumb:active {
+  background-color: #909090;
+}
+
 header {
   width: 100vw;
   height: 10vh;
@@ -352,38 +384,6 @@ input:focus {
 }
 
 .sidebar::-webkit-scrollbar-thumb:active {
-  background-color: #909090;
-}
-
-html::-webkit-scrollbar {
-  width: 8px;
-}
-
-html::-webkit-scrollbar-track {
-  background: #fff;
-  border-radius: 4px;
-}
-
-html::-webkit-scrollbar-thumb {
-  background: #606060;
-  border-radius: 4px;
-}
-
-html::-webkit-scrollbar-thumb:hover {
-  background: #606060;
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-html::-webkit-scrollbar-track:hover,
-html::-webkit-scrollbar-track:active {
-  background: #fff;
-}
-
-html:hover::-webkit-scrollbar {
-  display: initial;
-}
-
-html::-webkit-scrollbar-thumb:active {
   background-color: #909090;
 }
 
