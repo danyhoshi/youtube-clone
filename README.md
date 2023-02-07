@@ -11,9 +11,6 @@ Original Design
 - HTML
 - CSS
 
-## Getting Started
-
-
 ### Prerequisites
 - GIT 
 
